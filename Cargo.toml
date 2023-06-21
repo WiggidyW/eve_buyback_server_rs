@@ -1,0 +1,18 @@
+[package]
+name = "eve_buyback_server_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tonicserver = { git = "https://github.com/WiggidyW/tonicserver_rs.git" }
+firestoredb = { git = "https://github.com/WiggidyW/firestoredb_rs.git" }
+sqlitedb = { git = "https://github.com/WiggidyW/sqlitedb_rs.git" }
+tokio = { verison = "1.28", features = ["rt-multi-thread"] }
+serde = { version = "1.0", features = ["derive"] }
+phf = { version = "0.11", features = ["macros"] }
+prost-wkt-types = { version = "0.4" }
+tonic-web = { version = "0.9" }
+futures = { version = "0.3" }
+either = { version = "1.8" }
+prost = { version = "0.11" }
+tonic = { verison = "0.9" }
