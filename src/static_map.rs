@@ -1,4 +1,4 @@
-pub const PRICE_VERSION: &str = "2023-06-22 19:42:42";
+pub const PRICE_VERSION: &str = "2023-06-22 19:46:39";
 
 pub static MARKET_MAP: phf::Map<u64, &str> = phf::phf_map! {
     1030049082711: "1DQ1-A",
